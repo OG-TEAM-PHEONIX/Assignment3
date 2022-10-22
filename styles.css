@@ -177,20 +177,65 @@ body {
   background-image: url("./imgs/photo-1517694712202-14dd9538aa97.avif");
 }
 
+/*Photo by <a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clément Hélardot</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+
 .project-hero {
   background-image: url("./imgs/project.avif");
 }
 
+/*Photo by <a href="https://unsplash.com/@alvarordesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alvaro Reyes</a> on <a href="https://unsplash.com/s/photos/project?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+
 .industry-data-hero {
   background-image: url("./imgs/industry-data.avif");
 }
-
+/*Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Distel</a> on <a href="https://unsplash.com/s/photos/it-industry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
 .it-work-hero {
-  background-image:url("./imgs/it-work.avif");
+  background-image:url("./imgs/christina-wocintechchat-com-b6dfPNHa81w-unsplash.jpg");
+  /*Photo by <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
  }
 
 .it-tech-hero {
   background-image: url("./imgs/it-technologies.avif");
+}
+
+/*Photo by <a href="https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexandre Debiève</a> on <a href="https://unsplash.com/s/photos/tech?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+.ideal-jobs-hero {
+  background-image: url("./imgs/saulo-mohana-wNz7_5EvUWU-unsplash.jpg");
+  /*Photo by <a href="https://unsplash.com/@saulomohana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Saulo Mohana</a> on <a href="https://unsplash.com/s/photos/jobs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+}
+
+.it-industry-hero {
+  background-image: url("./imgs/it-work.avif");
+  /*Photo by <a href="https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carlos Muza</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+}
+
+.it-data-hero{
+  background-image: url("./imgs/it-technologies.avif");
+  /*Photo by <a href="https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carlos Muza</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+}
+
+.cloud-hero {
+  background-image: url("./imgs/shutterstock_1118011352.jpg");
+}
+
+.cybersecurity-hero {
+  background-image: url("./imgs/shutterstock_2137304159.jpg");
+}
+
+.auto-car-hero {
+  background-image: url("./imgs/shutterstock_635240822.jpg");
+}
+
+.ai-machine-hero {
+  background-image: url("./imgs/shutterstock_1096541144.jpg");
 }
 
 .embed-size {
@@ -203,6 +248,14 @@ body {
   max-width: 85%;
 }
 
-.card:hover {
+.FIXTHIScard:hover {
   opacity: 0.5
+}
+
+#transcript:hover {
+  opacity: 1;
+}
+
+.card-hover:hover {
+  opacity: 0.7;
 }
