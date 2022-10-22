@@ -14,6 +14,10 @@ body {
   background-color: rgb(20, 20, 20);
 }
 
+.bg-colour-custom {
+  background-color: rgb(255, 187, 0);
+}
+
 .custom_navbar {
     overflow: hidden;
     background-color: rgb(20, 20, 20);
@@ -246,10 +250,6 @@ body {
 
 .img-control{
   max-width: 85%;
-}
-
-.FIXTHIScard:hover {
-  opacity: 0.5
 }
 
 #transcript:hover {
