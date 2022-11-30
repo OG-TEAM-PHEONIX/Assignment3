@@ -237,3 +237,9 @@ body {
   color: rgb(171,195,251);
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}

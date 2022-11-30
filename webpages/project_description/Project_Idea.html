@@ -6,10 +6,11 @@
     <title>Team Phoenix A3 - Project Description</title>
     <link rel="stylesheet" href="../../styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
+    <script src="https://kit.fontawesome.com/181ded7907.js" crossorigin="anonymous"></script>
 </head>
+<!--Navigation-->
 <div class="custom_navbar">
-  <a class="text-decoration-none" href="../index.html">Home</a>
+  <a class="text-decoration-none" href="../../index.html">Home</a>
   <div class="custom_dropdown">
       <a class="custom_dropbtn text-decoration-none" href="../team_profile.html">Team Profile</a>
       <div class="custom_dropdown-content dropdown-content-position-profile">
@@ -33,6 +34,7 @@
   <a class="text-decoration-none" href="../reflection.html">Reflections</a> 
 </div>
 
+<!--Content-->
 <body class="bg-dark-custom text-white">
   <div class="accordion pt-3 container pb-2" id="accordionExample">
     <h1 class="display-3 text-center">
@@ -40,149 +42,569 @@
     </h1>
     <h2 class="text-center">Project Idea</h2>
 
-    <h4 class="custom-text-colour"><B>Topic</b></h4>
+    <h4 class="custom-text-colour"><B>Overview</b></h4>
     <p>
-      There is currently nothing on the market like Parents Pantry. If a user wishes to find an activity to complete the current alternative options are to look on search engines and social media for ideas. The point of difference between Parents Pantry and any other competitor is that the information will be centralised and stored on an app.  
-    </p>
-    <h4 class="custom-text-colour"><b>Motivation</b></h4>
-    <p>
-      There is currently nothing on the market like Parents Pantry. If a user wishes to find an activity to complete the current alternative options are to look on search engines and social media for ideas. The point of difference between Parents Pantry and any other competitor is that the information will be centralised and stored on an app.  
-    </p>
-    <h4 class="custom-text-colour"><b>Landscape</b></h4>
-    <p>
-      There is currently nothing on the market like Parents Pantry. If a user wishes to find an activity to complete the current alternative options are to look on search engines and social media for ideas. The point of difference between Parents Pantry and any other competitor is that the information will be centralised and stored on an app.  
-    </p>
+      To gain a better understanding of the IT industry Team Phoenix were tasked with developing a technical project. After considering industry needs, group interests 
+      and preexisting skillsets it was decided that an android app would be created. “Parents Pantry” (PP) will be an interactive mobile app that runs off various data sets 
+      which filter and presents activities to the user that they can do with their child based on user inputted data. <br><br>
+      Due to the financial and time constraints functioning databases will not be created and the focus will be on other foundational aspects of the app such as information for 
+      the data bases, wireframes, mockups and project planning for the future evolvement of PP. <br><br>
+      To better understand the current market and any possible gaps a comparison was made with parenting apps on the 
+      google play store. The top 45 grossing and free apps were listed and further categorised. Table 1 compares the findings and highlights the most popular subcategories. 
 
+    </p>
+    <section class="container mt-4 pt-3 pb-3">
+      <h4> Table 1: Most popular parenting subcategories on google play store </h4>
+      Source: Adapted from Google play store (2022)
+      <table class="table table-light table-striped text-center ">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Sub-category</th>
+            <th scope="col">Total apps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="col">Pregnancy and fertility</th>
+            <th scope="col">13</th>
+          </tr>
+          <tr>
+            <th scope="col">Sleep, growth & development tracking</th>
+            <th scope="col">13</th>
+          </tr>
+          <tr>
+            <th scope="col">Parental controls</th>
+            <th scope="col">11</th>
+          </tr>
+          <tr>
+            <th scope="col">Baby monitor</th>
+            <th scope="col">6</th>
+          </tr>
+          <tr>
+            <th scope="col">Co-parenting</th>
+            <th scope="col">6</th>
+          </tr>
+          <tr>
+            <th scope="col">Services eg. childcare, school, babysitting</th>
+            <th scope="col">5</th>
+          </tr>
+          <tr>
+            <th scope="col">GPS tracking</th>
+            <th scope="col">4</th>
+          </tr>
+          <tr>
+            <th scope="col">Language and education</th>
+            <th scope="col">4</th>
+          </tr>
+          <tr>
+            <th scope="col">Photo sharing</th>
+            <th scope="col">4</th>
+          </tr>
+          <tr>
+            <th scope="col">Mental health and parenting advice</th>
+            <th scope="col">3</th>
+          </tr>
+          <tr>
+            <th scope="col">Solids, baby led weaning and nutrition</th>
+            <th scope="col">3</th>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The information found demonstrates a clear gap and need for an app like PP. The main motivator for creating PP is to meet social needs and help parents 
+        and users who may otherwise struggle to support their children in play-based learning. “Play based learning requires support from others and helps children 
+        grow by accepting responsibility for their learning. It still requires guidance and feedback from others and promotes opportunities for children to learn, 
+        develop critical thinking skills, become agile, work independently” (DoE 2022) While play based learning is important, some people are not confident or familiar 
+        with these activity styles. PP will provide guidance and ideas in a convenient setting. On the surface PP is a simple app that is like other recipe and cocktail 
+        building platforms which are later explored in the scope and limit section of this report. Being the first of its type on the market is another huge motivator for this project.
+      </p>
+    </section>
+
+    <h4 class="custom-text-colour"><B>Description</b></h4>
     <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Aims
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      <!--Aims-->
+      <section>
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button accordion-style text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Aims
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            The aim of this project is to build an interactive mobile app called “Parents Pantry”. Due to time and financial constraints, 
+            it will not be possible to reach a minimum viable project over the course of the assignment. However, the foundations of PP will be established with a timeline 
+            and goals to be outlined below. <br><br>
+  
+            <b> Create the branding for PP</b> <br>
+            
+            To establish the visual identity of PP a brank kit is to be created. The brand kit must include a primary logo, alternative logo, 
+            colour codes, and fonts The app needs to appeal visually while being easy to navigate. A brand kit will ensure that the look and design of PP is 
+            cohesive and will allow all team members to create work that aligns with one another. Due to resourcing the brand kit needs to be created in the first week 
+            to allow for higher priority goals to be completed.
+            <br><br>
+            
+            <b>Decide what platform PP will be on</b> <br>
+            
+            To effectively roll out PP a decision on the app's platform will need to be made, the three options are:
+            <ul>
+              <li>Android</li>
+              <li>iOS</li>
+              <li>Both android and iOS</li>
+            </ul>
+   
+            
+            When deciding on the platform it is important to consider what option will best meet our demographic and what will be possible 
+            in the time frame that we have. Due to the flow on effect of this decision the platform must be chosen in the first week of the project. 
+            This will allow for resourcing to focus on uplifting the app and database. <br><br>
+            
+            <b>Create a wireframe</b> <br>
+            
+            Prior to creating the app, a wireframe will need to be developed. The wireframe will need to include all relevant in scope 
+            features considering the skillset of Team Phoenix with the ability to extend what is included in the app after testing. 
+            The wireframe will establish the foundations for the app and needs to align with the chosen branding. <br><br>
+            
+            <b>Create the app</b> <br>
+            
+            An app prototype is to be created utilising the information in the brand kit and wireframe. 
+            A basic app with minimal features will be acceptable for the initial testing stage. 
+            Testing will provide opportunities for user feedback around what features they would like to see. Completion of this goal by week 6 is necessary. <br><br>
+            
+            <b>Create a database</b><br>
+            
+            Establish the database purpose and create the foundations for the apps database. 
+            This will include collating testing examples and organising information into tables to be added to the database once it is uplifted in week 12.
+          </div>
         </div>
-      </div>
+      </section>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Plans and Progress
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
+
+    <!--Plans and Progress-->  
+    <section>
+      <h2 class="custom-text-colour pt-2"> Plans and Progress</h2>
+      <p>
+        Parents Pantry began after noticing a gap in the market. The idea is simple, an app that filters activities and then provides recommendations on 
+        what you can do with your child. The concept was inspired by recipe and cocktail building platforms, the use of this technology is yet to be transferred 
+        to the parenting market. The most similar platform is the Difford's cocktail guide website. The website for Diffords is easy to navigate and allows users to 
+        add items to their “cabinet” and recommends recipes, An overview of the Diffords website. At conception the idea lacked technical 
+        knowledge and nuance. The aim was always to create Parents Pantry as a functional app, so the below steps were taken.
+      </p>
+      
+    <ol>
+      <li>All members of Team Phoenix to understand the project idea and why it is valuable</li>
+      <li>Identify what different types of technology can be used to uplift the app</li>
+      <li>Create a timeline</li>
+      <li>Research and choose what technology and software will be used</li>
+      <li>Begin creating the technology and platforms required</li>
+    </ol>
+    
+    <h3 class="custom-text-colour">Understanding the project idea</h3>
+    <p>
+      Having a clear understanding of the project's purpose is important. The initial concept was revisited, and it was determined that this would remain unchanged.
+      The purpose of the app is to provide tailor made activity recommendations to the user based off the information they supply.
+    </p>
+    The types of information that would be required were broken down into the following:
+    <ul>
+      <li>Login details e.g., name, email address, username</li>
+      <li>Childs details e.g., age, name</li>
+      <li>Materials e.g., toys, objects around the home</li>
+      <li>Pantry items</li>
+      <li>Variable/environmental factors e.g., indoor or outdoor play</li>
+    </ul>
+
+    <p>
+      Once this information is received the user will get a list of relevant activities. At this stage of planning goals and scope had not yet been decided and 
+      items listed reflected ambitious plans that would need to be re-evaluated
+    </p>
+    <ul>
+      <li>Activity name</li>
+      <li>Items required</li>
+      <li>Instructions</li>
+      <li>Time guide</li>
+      <li>Prompts to restock pantry items that may be low</li>
+      <li>Instructional videos/pictures</li>
+    </ul>
+    <p>After establishing what was needed from the user and what would be provided to the user in return the next stage of planning began.</p>
+
+    <h3 class="custom-text-colour">What technology is needed?</h3>
+    <p>
+      On a surface level the app is simple. There will be a large data set that is filtered and presented to the user. The key to an app like this being successful will 
+      be making the app user friendly and visually appealing and to have a data source that is always growing with additional activities being added on a frequent basis. 
+      It was important to understand the apps features and what would be needed to create them. 
+      <br><br>
+      <b>Login and children’s details:</b> Databases will be storing a user’s log-in details, their own personal details as well as their children’s will need to be entered and stored, such as name, age, number of children.
+      <br><br>
+      <b>Materials and pantry items:</b> Additional databases will be added to hold inventory items related to a specific user, containing user-inputted information such as 
+      materials and pantry items.
+      <br><br>
+      <b>App storage:</b> To store user information and host the mobile application itself, a remote server will ideally be required in some form. A PaaS-based hosting platform 
+      will likely be the best for the scope of this mobile app, as it reduces coding time and allows for easy, focused mobile development. This means the host will also be 
+      handling the physical servers, storage, operating systems, networking firewalls and security. The local internal storage of the device will also be taken into consideration 
+      to handle temporary information and will be purged or reset each time the user logs out of the app. This will likely relate to user-inputted searches and filters, such as 
+      environmental factors.
+      <br><br>
+      <b>App design:</b> Wireframes and mock-ups will be necessary to facilitate the development of the app. The actual User Interface and creation of the app will be a combination of 
+      HTML, CSS and JavaScript. To optimize the User Experience, user testing will be crucial to implementing an intuitive and easy-to-use UX.
+      </p>
+      <h3 class="custom-text-colour">Planning timeline</h3>
+      <p>
+        A in depth overview of the planning timeline can be found below. Prior to establishing the project timeline, the scope, goals and aims of the project were defined. 
+        The timeline provided clarity on what needed to be decided and completed and when that would be due.
+      </p>
+      <h3 class="custom-text-colour">Research and technology choices</h3>
+      <p>
+        At this stage of planning a timeline was in place, the next step was deciding on what software and technology would be required to create parents pantry. 
+        William had taken responsibility for the User Interface design as he is experienced in this. 
+      </p>
+          <b>Database and storage:</b> Utilising a database scheme that involves interactions between separate databases would be ideal and therefore isolates one solution: relational databases. 
+          This is one where separate, yet related data points are stored and provided access to and remains an intuitive, straightforward way of representing data for our purposes. 
+          The way this works is that information is stored in tables, where each row is a record with a key that is unique to that row. The columns represent data attributes, 
+          for example, accounts, usernames, passwords or category, activity, length of time and so on. Through a relational database, data can be stored efficiently whilst being easy to read. 
+          The decision was made to use Oracle with MySQL.  
+          <br><br>
+          To store user information and host the mobile application itself, a remote server will ideally be required in some form. A
+          PaaS-based hosting platform will be the best for the scope of this mobile app, as it reduces coding time and allows for easy, focused mobile development. 
+          This means the host will also be handling the physical servers, storage, operating systems, networking firewalls and security. An example of a potential 
+          PaaS hosting service is Microsoft Azure.
+          <br><br>
+          When considering how to host a database on a server brings into question the matter of how much of the physical components are necessary. 
+          Jet Global, a financial report and EPM provider for Microsoft Dynamics, suggest enough storage space to contain the database as well as at least 3GB of 
+          RAM at the bare minimum, however meeting this easily obtainable threshold is not completely advisable as it “is often not the ideal solution” (Insight Software Support, 2022).
+          <br><br>
+          By providing better hardware for our server, run-times and efficiency will see greater improvements. Jet Global outline that for the average 100GB database, 
+          optimal performance exists with:
+          <ul>
+            <li>16-64GB RAM</li>
+            <li>4-8 High-performance processors</li>
+            <li>And SAN drives or other high-speed drives that are able to separately store SQL logs, data, temp files, Operating System, program files and such.</li>
+          </ul>
+          <p>
+            These three main criteria are imperative to consider when choosing how to store a database, as investing more in different areas will have different effects. 
+            For greater performance, like with runtime speeds, more RAM will be the solution, or for improvement in processing speed and power, investing in more cores would be the answer.  
+            <br><br>
+            Above all, the primary thing to consider is scalability - to guarantee that future growth is being adequately supported, its technological foundation 
+            will need to take steps to ensure it keeps up with the demand. This will not only maintain current users but aid in gaining more, when “users have high expectations,” 
+            and will expect our product to operate “fast and seamlessly” (Soucoup and Buck, 2022).      
+            <br><br>
+            This will depend on a few considerations. The number of users being one, where a proposed scaling method was an additional 1-2 GB of RAM for every 5 new users. 
+            In addition to having enough RAM to accommodate the rate of growth, we should have enough to also take into account the amount of software on one server. 
+            Again, the greater the count of RAM and hard-drive space, the smoother they will run.
+            <br><br>
+            Another consideration is how often data needs to be updated, requiring the hardware necessary to accomplish set goals. In this case, data needs to be changed on demand, 
+            at the user’s request, in the form of adding an activity, subtracting an item or getting a suggestion. This plays into one of the higher priorities - the size of the database. 
+            This directly impacts the design process in that it helps determine the configuration of hardware, such as how much processing will be needed. 
+            This contributes towards meeting the desired performance and needed physical amount of disk space.
+          </p>
+          
+          <p>
+            Since “the processing logic and data storage occur between the client-side and server-side,” (Litvinov, 2021) the process will have to be divided up to take place in separate instances. 
+            One instance occurring on the user’s local device and one occurring on the remote server. This means that the local internal storage of the device will also be taken into consideration to 
+            handle temporary information and will be purged or reset each time the user logs out of the app. This will likely relate to user-inputted searches and filters, such as environmental factors.
+
+            The core of the app will depend on the software algorithm that takes the aforementioned factors and creates suggestions for the user based on them. 
+            This will essentially be a user-initiated search with applied filters from both user account data and user-input data. 
+            The search will scan another database that contains suggestions with related filter keys. This part will require an algorithm coded with a language that can talk to databases.
+          </p>
+          
+          <p>
+            <b>App choice:</b> Deciding what type of app to create was important. Once the scope was determined it was clear that there would not be enough time or resources within the group to 
+            create an app for both Android and iOS. Given androids dominance in the global market as seen in figure 1 the decision was made to focus on an android app and to roll out a iOS app 
+            in the future state of Parents Pantry.
+          </p>
+          <h3>Figure 1: Mobile operating systems' market share worldwide from 1st quarter 2009 to 4th quarter 2022</h3>
+          <p>Source: Lariccha 2022</p>
+          <img class="img-control" src="../../imgs/Figure1.png" alt="" style="width: 100%;">
+          <br>
+          <p class="pt-2">
+            <b>Design Choices:</b> To create the wireframes and mock-ups Adobe XD was chosen for the prototype stage. Given the cost a more affordable alternative such as Proto.io may be considered for 
+            further development. A clean and simple user interface would be important as the aim of the app is to help parents spend less time searching on their phones. To optimise the User Experience, 
+            user testing will be crucial to implementing an intuitive and easy-to-use UX. Feedback from testers throughout the entire development cycle will be necessary to ensure the app is built to a publication 
+            standard. 
+          </p>
+
+          <h3 class="custom-text-colour">Artifact development</h3>
+          <p>
+            Once decisions had been made on what tools and technology would be used each goal was assessed and the project scope was revisited. 
+            This was done frequently to avoid scope creep and to ensure that each member stayed on track with the project. Due to unforeseen events which are later explained in “7.0 Group processes” 
+            The project needed to be scaled down.
+            <br><br>
+            Creating a branding kit was one of the first tasks completed. <a href="./artefacts.html">See Here.</a>
+            When researching the google play store earlier in the project, it became clear that most apps go one of two-ways design wise. 
+            Developers either choose to go minimal and simple with the design or gimmicky cartoon characters are often chosen. Figure 3 is a screenshot of some app icons for example. 
+            To align with the simplistic values that has been established at conception a minimal app was decided on.
+
+            <h3>Figure 3: Screenshot of google play store parenting apps</h3>
+            <p>Source: Google Play 2022</p>
+            <img class="img-control" src="../../imgs/Figure2.png" alt="" style="width: 100%;">
+
+            <p>A wireframe and mockup were then completed. At this stage it was clear that having both ”Materials” and ”pantry items” was not necessary for the user and both options 
+              could instead be stored in the pantry. This allowed for less clutter on the app. After the wireframe was completed an app prototype was created. 
+              The app prototype is linked on the group website and a copy of the wireframe can be found on the website and in Appendix J
+              <br><br>
+              Due to time and resourcing the database was not able to be completed during the initial stages of the project. Starting the database is the next step in the project.</p>
+          </p>
+
+    </section>
+    
+    <!--Roles-->  
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="accordion-button collapsed accordion-style text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Roles
         </button>
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <p>
+            In the initial stages of the project specific roles were defined for each member. To establish the relevant roles the following was taken into consideration
+            <ul>
+              <li>Strengths</li>
+              <li>Weaknesses</li>
+              <li>Preexisting skillset</li>
+              <li>Areas of interest</li>
+              <li>Group needs</li>
+            </ul>
+      
+            The success of A2 highlighted the importance of utilising each member's strengths and interests. If people were assigned tasks they were interested in, 
+            higher quality work was achieved. Based on the above factors it was decided that each person would have the below roles
+            <ul>
+              <li>William – UI/UX design and technical help</li>
+              <li>Hasnain – Technical design lead</li>
+              <li>JD – Project management, technical help</li>
+              <li>Jobaer – Admin, QA, writing</li>
+            </ul>
+          
+            As the project progressed and the group dynamics changed the defined roles were made redundant. The lack of set roles was not desirable in a project this size and the scope of the project had to be reduced accordingly.
+        </p>
+        
         </div>
       </div>
     </div>
+    <!--Scope and Limits-->   
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingFour">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <button class="accordion-button collapsed accordion-style text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Scope and Limits
         </button>
       </h2>
       <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <p>
+            This IT project is being created for Team Phoenix to create an Android mobile app. The project will include creating a basic app prototype and the foundations for the database. 
+            Project deliverables include a brank kit, wireframe, timeline, prototype, website, presentation and research surrounding what will be included in the database. 
+            The project will not include a fully functional database or additional features like step-by-step instructions and graphics. Constraints will likely include communication issues, 
+            lack of budget and limited technical skills. The initial project submission will be November 30th will a timeline to be planned until December 30.
+          </p>
         </div>
       </div>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingFive">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          Tools and Technologies
-        </button>
-      </h2>
-      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          On a surface level the app is simple. There will be a large data set that is filtered and presented to the user. The key to an app like this being successful will be making the app user friendly and visually appealing and to have a data source that is always growing with additional activities being added on a frequent basis.
-          <br><br>
-          Databases will be storing a user’s log-in details such as their username or email and password. Their own personal details as well as their children’s will need to be entered and stored, such as name, age, number of children and so on. Additional databases will be added to hold inventory items related to a specific user, containing user-inputted information such as materials and pantry items.
-          <br><br>
-          To store user information and host the mobile application itself, a remote server will ideally be required in some form. A PaaS-based hosting platform will be the best for the scope of this mobile app, as it reduces coding time and allows for easy, focused mobile development. This means the host will also be handling the physical servers, storage, operating systems, networking firewalls and security. An example of a potential PaaS hosting service is Microsoft Azure.
-          <br><br>
-          The local internal storage of the device will also be taken into consideration to handle temporary information and will be purged or reset each time the user logs out of the app. This will likely relate to user-inputted searches and filters, such as environmental factors.
-          <br><br>
-          The core of the app will depend on the software algorithm that takes the aforementioned factors and creates suggestions for the user based on them. This will essentially be a user-initiated search with applied filters from both user account data and user-input data. The search will scan another database that contains suggestions with related filter keys. This part will require an algorithm coded with a language that can talk to databases, such as Python or SQL. 
-          <br><br>
-          Creating wireframes and mock-ups will be necessary to facilitate the development of the app, and Adobe XD is an available service that excels in this department, however, there are cheaper alternatives out there. Adobe XD can further be used for the prototyping stage of development, but Proto.io is another useful alternative. The actual User Interface and creation of the app will be a combination of HTML, CSS and JavaScript. For a more streamlined and efficient development, React Native is a popular JavaScript Framework for mobile development. A clean and simple user interface will be important as the aim of the app is to help parents spend less time searching on their phones. To optimise the User Experience, user testing will be crucial to implementing an intuitive and easy-to-use UX. Feedback from testers throughout the entire development cycle will be necessary to ensure the app is built to a publication standard.
+    <!--Tools and Technologies-->
+    <section>
+      <h2 class="custom-text-colour pt-2"> Tools and Technologies</h2>
+      <p>
+        Table 4 provides an overview of the tools and technology to be utilised in this project. The table includes all software that is anticipated to be used throughout the project. 
+        Oracle attracts the highest price point which is why MySQL workbench has been included as a free alternative. All other tools have both free and paid for services. 
+        In the early stages of this project free software will be used when possible. Once Parents Pantry grows the software requirements will expand and there will be costs involved.
+      </p>
 
-        </div>
-      </div>
-    </div>
+
+      <h4>Table 4: Tools and technology to be used during the project</h4>
+        <table class="table table-light table-striped text-center">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Tools Used</th>
+              <th scope="col">Purpose</th>
+              <th scope="col">Experience</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col">Canva Pro Teams</th>
+              <th scope="col">Brand kit <br> A5 presentation</th>
+              <th scope="col">JD had previous experience using Canva for personal projects such as social media and event invitations and planning.</th>
+            </tr>
+            <tr>
+              <th scope="col">Adobe XD</th>
+              <th scope="col">Wireframe and Prototype Development</th>
+              <th scope="col">William has had previous experience using Adobe XD for previous coursework</th>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">Lucidchart</th>
+              <th scope="col">Sitemap</th>
+              <th scope="col">William has had previous experience using Lucidchart for previous coursework</th>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">MySQL Workbench 8.0 CE</th>
+              <th scope="col">Database</th>
+              <th scope="col">N/A</th>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">Java SE Development Kit 19.0.1</th>
+              <th scope="col">App Development</th>
+              <th scope="col">N/A</th>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">Oracle Database 19c</th>
+              <th scope="col">Database</th>
+              <th scope="col">N/A</th>
+              </th>
+            </tr>
+          </tbody>
+  
+        </table>
+    </section>
+    <!--Testing-->
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingSix">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        <button class="accordion-button collapsed accordion-style text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
           Testing
         </button>
       </h2>
       <div id="collapseSix" class="accordion-collapse collapse pb-2" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          To ensure that our app is developed to a highly functional standard, testing will commence as soon as the minimal viable product is achieved. This will range from initial feasibility studies to advanced beta testing to allow for feedback that can provide guidance with the late stages of development, giving insight to what final tweaks need be made to the final design. This phase of testing also helps iron out any bugs that would be easy to fix during the earlier stages, rather than during the launch of the finished product. Deploying frequent testing throughout the development cycle will also ensure that any patch fixes won’t also create new bugs while trying to fix old ones.   
-          <br><br>
-          Our first release will see that a limited number of volunteers will be able to test the app before submitting a questionnaire – a combination of testers from our target audience and with experienced testers would be ideal for invaluable feedback. These people can be found online - one way to attract interest is via a dedicated landing page, where individuals may be able to register, download and provide feedback. Sending emails to such users in a redundant fashion will aid in keeping their engagement also. From here, we may also gather potential testers simply from friends and family, and by extension, their friends and family or from already well-established beta tester communities such as Reddit or UserTesting. Budget permitting, a targeted advertising campaign may also generate traffic for testers and even the potential user base. With future prospects considering expanding our current development team, the scale of our project can be considered small, which would require a minimum of 10-15 beta testers, and an additional tenfold for if we saw considerable growth (Rachlin, 2022). Of course, this number can vary depending on what part exactly we are testing.
-          <br><br>
-          Testing would have to be sectioned into trials for different aspects of the app, breaking up the process into discrete tasks so that testing teams can provide specific and targeted insight. For example, a limited assessment for the graphics rendering of the interface, or a trial that focuses on the database logic and optimization. These can be categorised into beta testing, software testing, usability, functional and performance testing, just to name a few, or for other aspects which test security, design and compatibility. Recognizing which areas we want tested at the time will determine what sort of feedback we wish to receive, which in turn also controls how many and what sort of testers we want. “Depending on what your app is, you will only benefit if you are associating with the relevant beta testers” (Rachlin, 2016). Seeing as the Parents Pantry is directed for parents, we should seek out particular people that are partnered or single parents, child carers, nannies and babysitters of all ages, rather than young couples or truck drivers, for example.
-          <br><br>
-          To determine how successful these tests would be and effectively measure our success, certain metrics would need to be ascertained. This would provide answers to questions such as are these tests cost-effective to perform, do they contribute to the goals and milestones of the team, are they useful in debugging and are they comprehensive enough to expedite a final product? Throughout each phase of testing, such aforementioned questions would need to be weighed to justify current systems of testing or necessitate the change of them.
-        
+          <p>
+            To ensure that our app is developed to a highly functional standard, testing will commence as soon as the minimal viable product is achieved. 
+            This will range from initial feasibility studies to advanced beta testing to allow for feedback that can provide guidance with the late stages of development, 
+            giving insight to what final tweaks need be made to the final design. This phase of testing also helps iron out any bugs that would be easy to fix during the earlier stages, 
+            rather than during the launch of the finished product. Deploying frequent testing throughout the development cycle will also ensure that any patch fixes won’t also create new 
+            bugs while trying to fix old ones.
+            <br><br>
+            Our first release will see that a limited number of volunteers will be able to test the app before submitting a questionnaire – a combination of testers from our target 
+            audience and with experienced testers would be ideal for invaluable feedback. These people can be found online - one way to attract interest is via a dedicated landing page, 
+            where individuals may be able to register, download and provide feedback. Sending emails to such users in a redundant fashion will aid in keeping their engagement also. 
+            From here, we may also gather potential testers simply from friends and family, and by extension, their friends and family or from already well-established beta tester 
+            communities such as Reddit or UserTesting. Budget permitting, a targeted advertising campaign may also generate traffic for testers and even the potential user base. W
+            ith future prospects considering expanding our current development team, the scale of our project can be considered small, which would require a minimum of 10-15 beta testers, 
+            and an additional tenfold for if we saw considerable growth (Rachlin, 2022). Of course, this number can vary depending on what part exactly we are testing.
+            <br><br>
+            Testing would have to be sectioned into trials for different aspects of the app, breaking up the process into discrete tasks so that testing teams can provide 
+            specific and targeted insight. For example, a limited assessment for the graphics rendering of the interface, or a trial that focuses on the database logic and optimization. 
+            These can be categorised into beta testing, software testing, usability, functional and performance testing, just to name a few, or for other aspects which test security, 
+            design and compatibility. Recognizing which areas we want tested at the time will determine what sort of feedback we wish to receive, which in turn also controls how many and 
+            what sort of testers we want. “Depending on what your app is, you will only benefit if you are associating with the relevant beta testers” (Rachlin, 2016). 
+            Seeing as the Parents Pantry is directed for parents, we should seek out particular people that are partnered or single parents, child carer’s, nannies and babysitters 
+            of all ages, rather than young couples or truck drivers, for example.
+            <br><br>
+            To determine how successful these tests would be and effectively measure our success, certain metrics would need to be ascertained. 
+            This would provide answers to questions such as are these tests cost-effective to perform, do they contribute to the goals and milestones of the team, 
+            are they useful in debugging and are they comprehensive enough to expedite a final product? Throughout each phase of testing, such aforementioned questions 
+            would need to be weighed to justify current systems of testing or necessitate the change of them.
+          </p>
         </div>
       </div>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingSeven">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-          Timeframe
-        </button>
-      </h2>
-      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
+    <!--Timeframe-->
+    <section>
+      <h2 class="custom-text-colour pt-2"> Timeframe</h2>
+      <img class="pb-4" src="../../imgs/Figure3.png" alt="" style="width: 100%;">
+      <p>
+        Upon the extension of a further 10 weeks of development, the planning and research aspects of the app should have been completed at this stage and stand ready to 
+        provide a thorough foundation to build on. A length of one to two weeks dedicated to business analysis and acquiring knowledge of app development, databases, 
+        graphics and User-Interface design, as well as necessary tools to help create these. In addition to week one, individual sections of team profiles had to be near-completed – 
+        that of personal information which had to be uploaded from assignment one or two, depending on new team members, and at least a start on a career plan. Group processes 
+        were also finished at this time.
+        <br><br>
+        This furthermore encouraged the design and pre-development stage to commence towards the end of week two and heading into week three. This stage should also have seen the sole 
+        development of other design elements, such as researching and deciding colours, fonts and images, creating the layout for the UI, and compatibility and accessibility assessments. 
+        Some of these achievements are evidenced by the upload of a style guide, application sitemap and a wireframe.
+        <br><br>
+        Week two progress had to be shared with the construction of a script draft and storyboard that was to go towards the creation of a video for assessment five. 
+        Simultaneously, the first draft of the project report was scheduled to be completed by this week to allow for a plentiful amount of time for review and rewrites, 
+        however required postponement until the end of week five.
+        <br> <br>
+        Progressing into week three, the primary focus for the project should have been the development of a fully functional prototype and initial user trials to gain 
+        feedback on design properties. This was also initially the week to produce the written draft for the assessment and assume review and edits, as well as commencement on 
+        less prioritised parts, such as career plans and the section on jobs and skills. This week also saw the beginning of website optimization for this assignment.
+        <br><br>
+        Thus, the continuation of our development cycle beyond the dedicated assignment timeline will see the actual development of the app, 
+        involving the coding and the most intense stage of user-testing. The team involved in this segment should focus on three main areas of development – 
+        UI design, front-end development and back-end development. This will be the lengthiest phase of the project timeline as it’s the period which will likely encounter 
+        the most issues, soaking up weeks five through to ten.
+        <br><br>
+        The final two of four weeks preceding launch will have a heavy emphasis on further intense testing and corrections to ensure the app is working as 
+        intended and remains bug free. This is also the prime opportunity to submit the app for review in the Google Play Store for it to go through a 
+        screening process and accept Parents Pantry on the store.
+        <br><br>
+        Finally, this all leads to the second-last of fifteen weeks of development, giving room for finalising everything and the eventual release to the public. 
+        Week fifteen itself will be dedicated to monitoring post-launch statistics and activity and providing support and maintenance. 
+        This is a necessary and crucial step for ensuring the success of the Parents Pantry, as well as providing insight into future marketing strategies to further promote and 
+        increase app’s overall success, as well as potential updates.
+    </p>
+    </section>
+    <!--Risks-->
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingEight">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        <button class="accordion-button collapsed accordion-style text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
           Risks
         </button>
       </h2>
       <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <p>
+            Designing, developing and launching any software, let alone a mobile application, comes with its own set of risks and challenges, 
+            and as a first-time development team, we are bound to encounter any number of problems concerning the code itself, maintaining the app or even gaining traction for the idea.
+            <br><br>
+            A significant risk lies within enabling the core functionality of the concept as is, with limited collective knowledge and experience of databases 
+            and their coding languages. For this app, the agreed form of information storage was a relational database using MySQL as it’s supporting language, 
+            however, the danger lies therein of the learning capability of the individual programmer and their ability to apply their knowledge to the environment of our app. 
+            This as well, leaves the optimization and modularity of the app to the skills of a novice, which also extends to the coding of the frontend of the app.
+            <br><br>
+            The decision for MySQL, too, may be an uninformed choice as we might find that we are unable to create a suitable algorithm for the purposes of this app, 
+            nor may we find it suitable in general, for the coding of the backend. This extends to the front-end development of the Parents Pantry too, where we can only find 
+            whether our choice of coding language is suitable or maintainable for our purposes.
+            <br><br>
+            Today’s apps are held to a high standard to make for less complicated and easily maintainable software, with less bugs and errors, and the Parent’s Pantry should be no different. 
+            Bugs are always an unexpected expectation, but with better, higher-qu
+            <br><br>
+            them, reiterating the importance of a skilled programmer. The initial base of this app was to be built native to Android devices, which again reduces 
+            the complexities that would arise from cross-platform support. Should development ever consider the latter for whatever reason, this would mean attempting 
+            to port the app over to non-native systems or rebuilding the concept from scratch, so that it remains native to iOS, for example. Both the education and extension 
+            of the app would be costly in both time and money, especially considering the difficulties of scheduling the time needed to learn into the project pipeline. 
+            Such a factor should be omitted from the project entirely and operate on the foundation of already acquired skills, meaning the undertaking of a course or hiring of a professional.
+            <br><br>
+            Potential consequences may arise that are even out of our control, especially with the intention to rent third-party hardware, such as cloud servers, 
+            where hosting businesses may encounter price increases, environmental disturbances, and even bankruptcy and closure.
+            <br><br>
+            Another risk with a mobile project is the marketing aspect of promoting the app, gaining and maintaining users. With a limited budget, 
+            only so much can be done to stimulate a user base and a lot of efforts may require going unpaid. This could include social media posts, 
+            reaching out by word-of-mouth, or devoting an amount of the budget to obtain advertising space. However, should we fail to utilise such 
+            methods of advertising effectively, the number of new customers remains at risk. Furthermore, there is no guarantee those consumers will 
+            stay if certain features or the app itself is not up to standard. After launch, a big emphasis should be placed on gaining traffic for our app and maintaining active users.
+            <br><br>
+            A key component to any software or business is security and is one not to shrug off or dismiss. 
+            If security is not an on-going priority or primary consideration, we run the risk of losing customer data as well as their trust, 
+            as the result of data breaches. When an app, such as ours, intends to manage user accounts and handle potentially personal information, 
+            the cost of it all being leaked is drastically more severe and reinforces the need for high-level security. Neglecting or providing inadequate measures in terms of security will always pose a threat of data loss.
+          </p>
+        
         </div>
       </div>
     </div>
+    <!--Group Processes and Communications-->
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingNine">
-        <button class="accordion-button collapsed accordion-style" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+        <button class="accordion-button collapsed accordion-style text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
           Group Processes and Communications
         </button>
       </h2>
       <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          Heading into assignment three, the expectation was the continual and extended use of Microsoft Teams as the primary base of communications, 
+          as is required by the assessment guidelines, with a minimum of two meetings per week. This means that any changes or updates to anything regarding 
+          assignment three should be posted within the group chat or the teams general conversation log inside of MS Teams and should be checked regularly by 
+          members to stay up to date and informed on the progression, especially considering the differences in geography and time zones. As stated earlier, to overcome 
+          challenges faced in assignment two, it was agreed to use Trello within teams to assign and track tasks and progress appropriately, in a clear and efficient way. 
+          This also meant that team members were expected to regularly check and update their progress via the Trello board, or to inform other members through team meetings 
+          or text messages who could then update the board in their place.
         </div>
       </div>
     </div>
   </div>
-  
+  <a id="myBtn" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
 
 </body>
 <footer>
